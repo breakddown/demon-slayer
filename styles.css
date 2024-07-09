@@ -1,0 +1,74 @@
+/* Reset some basic styles */
+body, h1, h2, p, video, section {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom right, #001f3f, #005f99);
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Header styling */
+header {
+    margin-bottom: 30px;
+}
+
+h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+/* Episode styling */
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.episode {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    overflow: hidden;
+    width: 80%;
+    max-width: 600px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+    text-align: left;
+}
+
+.episode-details {
+    padding: 20px;
+}
+
+.episode h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.episode p {
+    font-size: 1em;
+    margin-bottom: 15px;
+}
+
+.video-container {
+    width: 100%;
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+}
+
+video {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
